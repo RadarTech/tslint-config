@@ -21,11 +21,25 @@ npm install tslint@^5.11.0 typescript@^3.0.3 prettier@^1.14.0 --save-dev
 
 ## 🛠️ Usage
 
+By default, only `airbnb` and `prettier` configurations are included. Each configuration is available as a separate file so you can mix in just what you need!
+
 In `tslint.json`:
 
 ```json
 {
   "extends": "@radarrelay/tslint-config"
+}
+```
+
+or:
+
+```json
+{
+  "extends": [
+    "@radarrelay/tslint-config/0x"
+    "@radarrelay/tslint-config/airbnb",
+    "@radarrelay/tslint-config/prettier", // NOTE: Prettier should always be the last in the list.
+  ]
 }
 ```
 
