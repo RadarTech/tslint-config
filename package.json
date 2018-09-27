@@ -1,0 +1,38 @@
+{
+  "name": "@radarrelay/tslint-config",
+  "version": "5.0.0",
+  "description": "A TSLint config with sensible rules for the 0x protocol, Airbnb, Prettier, and more.",
+  "author": "Ian K Smith <smithki707@gmail.com>",
+  "license": "MIT",
+  "main": "tslint.js",
+  "repository": "",
+  "bugs": "",
+  "keywords": [
+    "tslint",
+    "airbnb",
+    "microsoft",
+    "prettier",
+    "0x protocol"
+  ],
+  "scripts": {
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
+  },
+  "dependencies": {
+    "@0xproject/tslint-config": "^1.0.7",
+    "tslint-config-airbnb": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-plugin-prettier": "^2.0.0"
+  },
+  "peerDependencies": {
+    "prettier": "^1.14.0",
+    "tslint": "^5.5.0",
+    "typescript": "^3.0.3"
+  },
+  "devDependencies": {
+    "prettier": "~1.14.3",
+    "tslint": "~5.11.0",
+    "typescript": "~3.0.3"
+  }
+}
