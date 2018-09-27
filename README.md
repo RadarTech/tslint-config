@@ -25,7 +25,7 @@ By default, only `airbnb` and `prettier` configurations are included. Each confi
 
 In `tslint.json`:
 
-```json
+```javascript
 {
   "extends": "@radarrelay/tslint-config"
 }
@@ -33,7 +33,7 @@ In `tslint.json`:
 
 or:
 
-```json
+```javascript
 {
   "extends": [
     "@radarrelay/tslint-config/0x"
