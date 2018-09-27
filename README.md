@@ -3,7 +3,7 @@
 [![code style: airbnb](https://img.shields.io/badge/code%20style-airbnb-blue.svg?style=flat)](https://github.com/airbnb/javascript)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
-> A [TSLint config](https://palantir.github.io/tslint/usage/configuration/) with sensible rules for 0x protocol, Airbnb, RxJS, Prettier, and more.
+> A [TSLint config](https://palantir.github.io/tslint/usage/configuration/) with sensible rules for 0x protocol, Airbnb, Prettier, and more.
 
 ## 🔗 Installation
 
