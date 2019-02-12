@@ -10,7 +10,7 @@
 Install via `npm`:
 
 ```sh
-npm install @radarrelay/tslint-config --save-dev
+npm install @radar/tslint-config --save-dev
 ```
 
 Ensure you also have the required `peerDependencies` installed:
@@ -27,7 +27,7 @@ In `tslint.json`:
 
 ```javascript
 {
-  "extends": "@radarrelay/tslint-config"
+  "extends": "@radar/tslint-config"
 }
 ```
 
@@ -36,9 +36,9 @@ or:
 ```javascript
 {
   "extends": [
-    "@radarrelay/tslint-config/0x"
-    "@radarrelay/tslint-config/airbnb",
-    "@radarrelay/tslint-config/prettier", // NOTE: Prettier should always be the last in the list.
+    "@radar/tslint-config/0x"
+    "@radar/tslint-config/airbnb",
+    "@radar/tslint-config/prettier", // NOTE: Prettier should always be the last in the list.
   ]
 }
 ```

@@ -1,6 +1,6 @@
 {
-  "name": "@radarrelay/tslint-config",
-  "version": "5.0.0",
+  "name": "@radar/tslint-config",
+  "version": "5.0.1",
   "description": "A TSLint config with sensible rules for the 0x protocol, Airbnb, Prettier, and more.",
   "author": "Ian K Smith <smithki707@gmail.com>",
   "license": "MIT",
